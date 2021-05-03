@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+
+html {
+	background-image: url("../img/bg-03.png");
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}

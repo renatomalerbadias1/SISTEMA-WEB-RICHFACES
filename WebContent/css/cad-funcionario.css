@@ -1,0 +1,93 @@
+
+
+@charset "ISO-8859-1";
+
+html {
+	background-image: url("../img/bg-03.png");
+}
+
+.testbutton {
+  font-family: 'arial black';
+  color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 19px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(to top, #DBD0D1, #DBD0D1);
+  
+  
+}
+.testbutton:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+
+
+.imagem_fundo {
+	position: relative;
+	top: 10px;
+	left: 0px;
+	
+	padding: 3px;
+}
+
+body {
+	
+	
+	width: 800px;
+	margin: 0 auto;
+	background-color: rgb(100, 192, 192);
+	padding: 0 20px 20px 20px;
+	border: 2px solid black;
+	
+}
+
+.teste {
+  width: 100px;
+  height: 100px;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+   
+  
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+h3 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539f;
+	text-shadow: 2px 2px 1px black;
+}
+
+h4 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539f;
+	
+}
